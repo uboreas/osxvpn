@@ -5,8 +5,8 @@ A set of scripts to provide persistent (always connected) VPN behavior. It consi
 * autovpn.sh
 
 You may have multiple (native) VPN configurations on your Mac. This tools
-help you to make one of them persistent and you can switch between multiple
-VPN configurations by issuing a command from terminal. The latest switched
+help you to switching between multiple VPN configurations and making one of
+them persistent by issuing a command from terminal. The latest switched
 configuration and its status remembered by the scripts and stays persistent
 even if the computer gets sleep (or restart when you put application into startup).
 
