@@ -33,7 +33,7 @@ Starts persistent behavior for specified configuration. This is actually same wi
 	> autovpn.sh start interface
 
 ## Details
-Apple script and helper script (autovpn.sh) conjuncted with two temporary files:
+These scripts are linked to each other via the following temporary files:
 
 	vpn.default : Holds last switched configuration name.
 	vpn.status  : Holds last given action (start or stop).
