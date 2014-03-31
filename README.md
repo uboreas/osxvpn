@@ -14,7 +14,7 @@ even if the computer gets sleep (or restart when you put application into startu
 You should create an application version of the applescript. You can refer
 to blog page of this project to create application version of the applescript:
 
-http://clxdev.wordpress.com/2014/03/30/osx-vpn-autoconnect
+http://clxdev.net/2014/03/30/osx-vpn-autoconnect
 
 ## Running
 The interactive part of the project:
