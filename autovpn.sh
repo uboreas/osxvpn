@@ -36,10 +36,10 @@ function vstop() {
    if [ "${svc}" != "" ]; then
       /usr/bin/env osascript <<-EOF
       tell application "System Events"
-         tell current location of network preferences
-            set _vpn to service "${svc}"
-            if exists _vpn then disconnect _vpn
-         end tell
+         set _vpn to "${svc}"
+         if exists _vpn then
+            do shell script "scutil --nc stop " & _vpn
+         end if
       end tell
       return
 EOF
